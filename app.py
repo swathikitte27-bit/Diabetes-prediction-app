@@ -10,8 +10,8 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/swath/OneDrive/Desktop/deploy diabetes Prediction/trained_model.sav', 'rb'))
-scaler = pickle.load(open('C:/Users/swath/OneDrive/Desktop/deploy diabetes Prediction/scaler.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 
 # Create a function for prediction
