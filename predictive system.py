@@ -8,8 +8,8 @@ This is a temporary script file.
 import numpy as np
 import pickle
 
-loaded_model = pickle.load(open('C:/Users/swath/OneDrive/Desktop/deploy diabetes Prediction/trained_model.sav', 'rb'))
-scaler = pickle.load(open('C:/Users/swath/OneDrive/Desktop/deploy diabetes Prediction/scaler.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 input_data = (3,78,50,32,88,31,0.248,26) 
 
